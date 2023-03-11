@@ -41,6 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT CAST(C23 AS DATE) AS YEAR, AVG(c21)
+SELECT CAST(C23 AS DATE) AS "strftime('%Y', c23)", AVG(c21) AS "avg(c21)"
 FROM tbl2
 GROUP BY CAST(C23 AS DATE);

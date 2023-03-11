@@ -38,7 +38,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT CAST(c14 AS DATE), COUNT(0) AS 'CANT'
+SELECT COUNT(*)
 FROM tbl1
 WHERE CAST(c14 AS DATE)=2018
 GROUP BY CAST(c14 AS DATE);
