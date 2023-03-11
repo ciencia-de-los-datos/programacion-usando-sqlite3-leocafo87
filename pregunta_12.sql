@@ -42,6 +42,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT k0 AS 'K0',MAX(C12),MIN(C12)
+SELECT k0 AS "K0",MAX(C12) AS "MAX(c12)",MIN(C12) AS "MIN(c12)"
 FROM tbl1
 GROUP BY k0;
