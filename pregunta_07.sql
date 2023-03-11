@@ -45,5 +45,5 @@
 --
 SELECT *
 from tbl1
-where k0 NOT IN ('A','B') AND c13 NOT IN (200,300)
+where k0 NOT IN ('A','B') AND c13 NOT IN (200,900)
 ORDER BY c14;
